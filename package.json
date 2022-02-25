@@ -19,7 +19,9 @@
     "test:e2e": "npm run test -- --watch -c jest-e2e-config.js",
     "test:e2e:coverage": "npm run test:e2e -- --coverage",
     "test:e2e:verbose": "npm run test:verbose -- --watch -c jest-e2e-config.js",
-    "test:staged": "npm test"
+    "test:staged": "npm test",
+    "precommit": "eslint-staged",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
