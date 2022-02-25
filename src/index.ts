@@ -1,1 +1,1 @@
-export const helloWorld = (): string => 'Hello Word'
+export const helloWorld = (): string => 'Hello World'
